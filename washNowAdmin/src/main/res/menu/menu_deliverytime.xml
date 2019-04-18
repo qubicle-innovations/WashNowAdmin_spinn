@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/slot_1"
+        android:title="6:00PM - 7:00PM"/>
+    <item android:id="@+id/slot_2"
+        android:title="7:00PM - 8:00PM"/>
+    <item android:id="@+id/slot_3"
+        android:title="8:00PM - 9:00PM"/>
+    <item android:id="@+id/slot_4"
+    	android:title="9:00PM - 10:00PM"/>
+    
+</menu>

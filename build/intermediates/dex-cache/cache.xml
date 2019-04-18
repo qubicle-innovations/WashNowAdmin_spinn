@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.1_7b4e13578ebb72631aa0003a5206d0a96bbf09ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_d411279f592fabe999104c95ab0765ac9bbafaf6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_9c1f01779abdc581fa27e8ac1557e0981dd951ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-10.0.1_f94cad74d96f9d6df3c05b89429144352a778d32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_451cedf9c72f3a602d599450674b83ce73e3be04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_a47057c7faab855c954a0dd240031fe519c2da70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/WashNowAdmin/resideMenu/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="094bcba8795f31ccac5b117fadb1a155bd3bca83">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/WashNowAdmin-resideMenu-unspecified_21825a068acd98b4d558449c14d7ae3cbc252658.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-10.0.1_ac93a965f225e91644d9ffa12825fddb2ffbfd18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_225d5c0f05e608c6490f9d8acc850f87dd4ad1e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/WashNowAdmin/resideMenu/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fe258bb4011da552e949c35008f88a97d120304f">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/WashNowAdmin-resideMenu-unspecified_0f9e81cb4f69b180ebe32cf1c41cf3ffd2951ecc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/libs/jackson-annotations-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="adaa16df5f1ff56b40fb59362c83886f5413096c">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/jackson-annotations-2.1.0_46464c69a10961c1db860d65483dc575b32ff744.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/libs/jackson-core-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6575afa4a9b3dc94dec2fa6082847e6987de651c">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/jackson-core-2.1.0_f63b0263cb740bc0989e5e65f869f7e321925687.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_1848f2c57d40d851b9da77129fa280f0388f627c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_35d517b6db74556cd40b81fa5bef9806d83f3ea3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-10.0.1_344190ab7332c8c04136a21b85258c2c3a45cb01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/WashNowAdmin/resideMenu/unspecified/jars/libs/nineoldandroids-library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/nineoldandroids-library-2.4.0_741cb9c1f1a2da2405c58ef8a2cc9f3615c254fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/libs/jackson-core-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6575afa4a9b3dc94dec2fa6082847e6987de651c">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/jackson-core-2.1.0_7986a529d10269bf4579ff9c39eb90bc468f582d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/libs/jackson-annotations-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="adaa16df5f1ff56b40fb59362c83886f5413096c">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/jackson-annotations-2.1.0_7dfaa1e52d46ac4ab7f98a21a7df7771474db2af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/libs/jackson-databind-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98364cd86063fe995199a1eb8268319d3e5db1f9">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/jackson-databind-2.1.0_dc44647f9244bcb858b3e024084c542e436658ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_efc1333eeb867bfbc9ad5234fc7d609cd6f70790.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-10.0.1_1d4e6bf610d91cb2caf73a0f55fe52edcc7e67ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_1167716237d0580708a9401798b8d93a3933b92f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_4964dd2c61500f7b891db382f2cec89655cf95ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_161f6e6264a5935fd926b91fda8a2275d37586e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_528a48a6a80376b4cbc24231407262ad5f0f7239.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_b2e713f8cd57f07365bc060b14c720304df09ce4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/libs/btsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ddd88d34a43d1ab16cdffc73cc39d05e9d79a85">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/btsdk_971ef8a3049d073b4427cd9dd5d34fc7ce999936.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.1_0c73fe188d5ea42bc58cad2fde44dac28873ea78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-iid-10.0.1_72c546aea047339be0a6eeff76f8450758ef6d46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/libs/jackson-databind-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98364cd86063fe995199a1eb8268319d3e5db1f9">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/jackson-databind-2.1.0_56c5019b617ac32e6292d4169d29506978fb7384.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_107d0d5105964554d8c9929d227d9d6cf9df9a86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_89eba37133cf1d149bdcf8e916d08b05d2231e4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_1feb096bdde9ecd9bbb13fcfb2887841050372e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/WashNowAdmin/resideMenu/unspecified/jars/libs/nineoldandroids-library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/nineoldandroids-library-2.4.0_eb800a00634be74b8f35410e5ee6ee46133872ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-10.0.1_66c2fa0890f5d6b2bdca67fe1841950b7b73528d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/aswin/Desktop/Mednet Mobile App/Android/WashNowAdmin/washNowAdmin/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_0bf5b60e360e1cb942aefda6b4883eb4f15ea40e.jar" />
+    </item>
+
+</items>

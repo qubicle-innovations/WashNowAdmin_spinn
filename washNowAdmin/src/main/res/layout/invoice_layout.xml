@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/button_scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:text="@string/connect"
+        />
+    <RelativeLayout
+        android:id="@+id/rlTitle"
+        android:layout_below="@+id/button_scan"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/tvDryCount"
+        android:layout_toStartOf="@+id/tvDryCount"
+        android:gravity="center_vertical"
+        android:text="TITLE"
+        android:textColor="@color/signup_blue"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvIronCount"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="IRON"
+        android:textColor="@color/signup_blue" />
+
+    <TextView
+        android:id="@+id/tvWashCount"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/tvIronCount"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/tvIronCount"
+        android:layout_toStartOf="@+id/tvIronCount"
+        android:gravity="center"
+        android:text="WASH"
+        android:textColor="@color/signup_blue" />
+
+    <TextView
+        android:id="@+id/tvDryCount"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/tvWashCount"
+        android:layout_toLeftOf="@+id/tvWashCount"
+        android:layout_toStartOf="@+id/tvWashCount"
+        android:gravity="center"
+        android:text="DRY\nCLEAN"
+        android:textColor="@color/signup_blue" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@color/overscroll"
+        android:padding="10dp"
+        android:text="Place Order"
+        android:textColor="@color/white" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btConfirm"
+        android:layout_below="@+id/rlTitle" />
+
+    <LinearLayout
+        android:id="@+id/llPrintOption"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btCustomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/overscroll"
+            android:padding="10dp"
+            android:text="Customer\ninvoice"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btLaundry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/home_item_red"
+            android:padding="10dp"
+            android:text="Laundry\ninvoice"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

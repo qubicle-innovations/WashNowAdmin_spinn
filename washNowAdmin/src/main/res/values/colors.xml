@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="turquoise">#1abc9c</color>
+    <color name="silver">#bdc3c7</color>
+    <color name="emrald">#40d47e</color>
+    <color name="peterriver">#3498db</color>
+    <color name="alizarin">#e74c3c</color>
+    <color name="sunflower">#f1c40f</color>
+    <color name="asbetos">#7f8c8d</color>
+    <color name="overscroll">#33b5e5</color>
+    <color name="white">#ffffff</color>
+    <color name="plain_black">#cf000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="trancelucent">#78000000</color>
+    <color name="gray_black">#333333</color>
+    <color name="violet_gray">#5b5c61</color>
+    <color name="grey">#adadad</color>
+    <color name="login_yellow">#e2b329</color>
+    <color name="login_pressed_yellow">#a8882d</color>
+    <color name="signup_blue">#5865a9</color>
+    <color name="pressed_blue">#45486d</color>
+    <color name="settings_value_gray">#a5a6ae</color>
+    <color name="actionbar_viloet">#615f95</color>
+    <color name="application_background">#202536</color>
+    <color name="dashboard_background">#323339</color>
+    <color name="iconpressed_red">#55e30513</color>
+    <color name="leftdrawermenu_press">#babacf</color>
+<color name="home_blue_dark">#3b5998</color>
+
+  <color name="home_item_blue">#E634BDEC</color>
+    <color name="home_item_pink">#E6E94B68</color>
+    <color name="home_item_green">#FF95C11E</color>
+    <color name="home_item_red">#E6E6332A</color>
+    <color name="home_item_darkgreen">#E660AE2F</color>
+    <color name="home_item_voilet">#E6662382</color>
+    <color name="home_item_yellow">#E6FFDD00</color>
+    <color name="home_item_selectedyellow">#FFF9B233</color>
+    <color name="home_item_grey">#FF303F65</color>
+ 
+    <color name="home_blue_medium">#384264</color>
+    <color name="home_blue_light">#dfe3ee</color>
+    <color name="home_blue_ultralight">#f7f7f7</color>
+     <color name="home_violet">#55c2f0</color>
+     <color name="textbox_blue">#515a7a</color>
+     <color name="actionbar_blue">#11b2b1</color>
+    <color name="orange">#FFA500</color>
+    
+    
+    
+
+</resources>

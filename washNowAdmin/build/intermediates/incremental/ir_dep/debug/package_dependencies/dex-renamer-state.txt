@@ -1,0 +1,4 @@
+#Wed Mar 20 15:46:43 IST 2019
+base.0=/Users/aswin/Dropbox/Android Studio Workspace/WashNowAdmin/washNowAdmin/build/intermediates/transforms/dexMerger/debug/11
+path.0=classes.dex
+renamed.0=classes.dex

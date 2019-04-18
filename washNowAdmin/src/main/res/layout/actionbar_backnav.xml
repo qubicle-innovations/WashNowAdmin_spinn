@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_violet" >
+
+    <LinearLayout
+        android:id="@+id/ll_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/im_bck"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_action_previous_item"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/im_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_action_logo" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_actionbar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ll_logo"
+        android:ellipsize="end"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</RelativeLayout>
