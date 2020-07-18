@@ -36,12 +36,16 @@ import java.util.Date;
 public class InvoiceActivity extends BaseActivity implements View.OnClickListener {
     private ArrayList<ProductVo> pList;
     private ProductListAdapter pAdapter;
-    private int total, totalItems;
+    private double total;
+    private int totalItems;
     private OrderVo order;
     ArrayList<ProductVo> invoiceList;
     private String products;
     boolean listUpdate =false;
     boolean deliveryChargesAdded=false;
+    private  String currency;
+    private  double deliveryCharges=0;
+    private int deliveryThreshold =0;
 
 
     // Debugging
@@ -77,6 +81,7 @@ public class InvoiceActivity extends BaseActivity implements View.OnClickListene
     private BluetoothAdapter mBluetoothAdapter = null;
     // Member object for the services
     private BluetoothService mService = null;
+    private String phone ="";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,6 +95,19 @@ public class InvoiceActivity extends BaseActivity implements View.OnClickListene
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
         order = (OrderVo) getIntent().getSerializableExtra("vo");
         new GetProductsTask(context).execute();
+        String country =  Utils.getSharedPreference(context,"country");
+       if( country!=null&&country.equalsIgnoreCase(Utils.COUNTRY_OMAN)){
+           currency = "OMR";
+           deliveryCharges=0.5;
+           deliveryThreshold=9;
+           phone="+968959520701";
+       }else {
+           currency = "QAR";
+           deliveryCharges=5;
+           deliveryThreshold=99;
+
+
+       }
 
 
     }
@@ -119,7 +137,7 @@ public class InvoiceActivity extends BaseActivity implements View.OnClickListene
                             product.setType("dryclean");
                             product.setQuantity(vo.getDryCount());
                             invoiceList.add(product);
-                            total = total + (int) (vo.getDryCount() * vo.getDryclean_sale_price());
+                            total = total +  (vo.getDryCount() * vo.getDryclean_sale_price());
                             totalItems = totalItems + vo.getDryCount();
                         }
                         if (vo.getWashCount() > 0) {
@@ -129,7 +147,7 @@ public class InvoiceActivity extends BaseActivity implements View.OnClickListene
                             product.setType("wash");
                             product.setQuantity(vo.getWashCount());
                             invoiceList.add(product);
-                            total = total + (int) (vo.getWashCount() * vo.getWash_sale_price());
+                            total = total +  (vo.getWashCount() * vo.getWash_sale_price());
                             totalItems = totalItems + vo.getWashCount();
                         }
                         if (vo.getIronCount() > 0) {
@@ -139,7 +157,7 @@ public class InvoiceActivity extends BaseActivity implements View.OnClickListene
                             product.setType("ironing");
                             product.setQuantity(vo.getIronCount());
                             invoiceList.add(product);
-                            total = total + (int) (vo.getIronCount() * vo.getIroning_sale_price());
+                            total = total +  (vo.getIronCount() * vo.getIroning_sale_price());
                             totalItems = totalItems + vo.getIronCount();
                         }
 
@@ -526,28 +544,27 @@ public class InvoiceActivity extends BaseActivity implements View.OnClickListene
 
         String totalCount = "Total Items: " + addspaceleft(17,String.valueOf(totalItems));
         String deliveryCharge;
-        if(total>99) {
-            deliveryCharge = "Delivery Charge: " + addspaceleft(13,"QAR"+String.valueOf(0));
+        if(total>deliveryThreshold) {
+            deliveryCharge = "Delivery Charge: " + addspaceleft(13,currency+String.valueOf(0));
 
         }else {
-            deliveryCharge = "Delivery Charge: " + addspaceleft(13,"QAR"+String.valueOf(5));
-            if(!deliveryChargesAdded)
-             total =total+5;
-
-            deliveryChargesAdded=true;
+            deliveryCharge = "Delivery Charge: " + addspaceleft(13,currency+String.valueOf(deliveryCharges));
+        if(!deliveryChargesAdded)
+             total =total+deliveryCharges;
+             deliveryChargesAdded=true;
 
         }
         String laudryCharge;
         if(deliveryChargesAdded) {
-             laudryCharge = "laundry Charge: " + addspaceleft(14,"QAR"+String.valueOf((total-5)));
+             laudryCharge = "laundry Charge: " + addspaceleft(14,currency+Utils.roundPrice(String.valueOf(total-deliveryCharges),currency));
         }else {
             laudryCharge = "laundry Charge: " + addspaceleft(14
-                    ,"QAR"+String.valueOf(total));
+                    ,Utils.roundPrice(String.valueOf(total),currency));
 
 
         }
-        String totalCost = "Total Charge: " + addspaceleft(16,"QAR"+String.valueOf(total));
-        String contact = "Email: " + addspaceleft(23,"info@washnow.me");
+        String totalCost = "Total Charge: " + addspaceleft(16,currency+Utils.roundPrice(String.valueOf(total),currency));
+        String contact = "Email: " + addspaceleft(22,"hello@washnow.me");
 
         SendDataByte(PrinterCommand.POS_Print_Text(totalCount, CHINESE, 0, 0, 0, 0));
         SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
@@ -594,6 +611,7 @@ public class InvoiceActivity extends BaseActivity implements View.OnClickListene
         String time = DateUtil.dateToString(new Date(),DateUtil.DATE_MESSAGE);
         time = "Collection Time: " + addspaceleft(13, time);
         String customer ="Customer: " +addspaceleft(20,order.getName());
+        String employee = addspaceleft(30,order.getExtras());
         SendDataByte(PrinterCommand.POS_Print_Text(customer, CHINESE, 0, 0, 0, 0));
         SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
         SendDataByte(PrinterCommand.POS_Print_Text(date, CHINESE, 0, 0, 0, 0));
@@ -603,6 +621,9 @@ public class InvoiceActivity extends BaseActivity implements View.OnClickListene
         SendDataByte(PrinterCommand.POS_Print_Text(key, CHINESE, 0, 0, 0, 0));
         SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
         SendDataByte(PrinterCommand.POS_Print_Text(orderString, CHINESE, 0, 0, 0, 0));
+
+        SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
+        SendDataByte(PrinterCommand.POS_Print_Text(employee, CHINESE, 0, 0, 0, 0));
         SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
         SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.star, CHINESE, 0, 0, 0, 0));
         SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
@@ -631,13 +652,18 @@ public class InvoiceActivity extends BaseActivity implements View.OnClickListene
         SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
 
         String totalCount = "Total Items: " + addspaceleft(17,String.valueOf(totalItems));
-      //  String totalCost = "Total Cost: " + addspaceleft(18,"QAR"+String.valueOf(total));
+      //  String totalCost = "Total Cost: " + addspaceleft(18,currency+String.valueOf(total));
 
         SendDataByte(PrinterCommand.POS_Print_Text(totalCount, CHINESE, 0, 0, 0, 0));
         SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
       //  SendDataByte(PrinterCommand.POS_Print_Text(totalCost, CHINESE, 0, 0, 0, 0));
         //SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
         SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.star, CHINESE, 0, 0, 0, 0));
+        if(order.getNotes()!=null&&order.getNotes().length()>3){
+            SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
+            SendDataByte(PrinterCommand.POS_Print_Text(order.getNotes(), CHINESE, 0, 0, 0, 0));
+
+        }
         SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
         SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
         SendDataByte(PrinterCommand.POS_Print_Text(PrinterCommand.linefeed, CHINESE, 0, 0, 0, 0));
@@ -683,7 +709,7 @@ public class InvoiceActivity extends BaseActivity implements View.OnClickListene
     @Override
     public void finish() {
         if(listUpdate){
-
+                Log.e("invoice", total+"");
             Intent intent=new Intent();
             intent.putExtra("cost",total);
             intent.putExtra("products" , products);

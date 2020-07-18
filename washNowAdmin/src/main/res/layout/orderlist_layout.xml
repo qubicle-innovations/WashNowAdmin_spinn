@@ -87,6 +87,18 @@
         android:gravity="right"
         android:text=""
         android:textColor="@color/white" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/etSearch"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical"
+        android:hint="Enter Order Number/Customer name"
+        android:layout_below="@+id/tvStatus"
+        />
 
     <ListView
         android:id="@+id/list"
@@ -94,7 +106,7 @@
         android:layout_marginTop="5dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_below="@+id/tvStatus" >
+        android:layout_below="@+id/etSearch" >
     </ListView>
 
 </RelativeLayout>

@@ -2,28 +2,18 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/rl_order"
     android:layout_width="match_parent"
-    android:descendantFocusability="blocksDescendants"
-    
     android:layout_height="match_parent"
-    android:background="@color/home_blue_medium" >
 
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="5dp"
-        android:src="@drawable/ic_actionbar_logo" />
+    android:background="@color/home_blue_medium"
+    android:descendantFocusability="blocksDescendants">
+
 
     <TextView
         android:id="@+id/tvOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/tvName"
         android:layout_below="@+id/tvName"
+        android:layout_alignLeft="@+id/tvName"
         android:layout_marginTop="10dp"
         android:layout_toLeftOf="@+id/tvStatus"
         android:text="TextView"
@@ -34,9 +24,10 @@
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
-        android:layout_toRightOf="@+id/imageView1"
         android:text="TextView"
         android:textColor="@color/white"
         android:textSize="18sp" />
@@ -45,8 +36,8 @@
         android:id="@+id/tvStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/tvOrder"
+        android:layout_alignParentRight="true"
         android:layout_marginRight="10dp"
         android:gravity="right"
         android:text="Delivery required"
@@ -57,22 +48,22 @@
         android:id="@+id/linearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/tvAddress"
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/tvAddress"
         android:layout_marginTop="5dp"
-        android:orientation="horizontal" >
+        android:orientation="horizontal">
 
         <RelativeLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginBottom="4dp"
             android:layout_marginLeft="4dp"
             android:layout_marginRight="2dp"
+            android:layout_marginBottom="4dp"
             android:layout_weight="1"
             android:background="@color/textbox_blue"
-            android:paddingLeft="5dp" >
+            android:paddingLeft="5dp">
 
             <TextView
                 android:id="@+id/tvPickUpTime"
@@ -88,8 +79,8 @@
                 android:id="@+id/tvPickUpDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/tvPickUpTime"
                 android:layout_below="@+id/tvPickUpTime"
+                android:layout_alignLeft="@+id/tvPickUpTime"
                 android:text="TextView"
                 android:textColor="@color/white"
                 android:textSize="15sp" />
@@ -98,8 +89,8 @@
                 android:id="@+id/tvPickUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/tvPickUpDate"
                 android:layout_below="@+id/tvPickUpDate"
+                android:layout_alignLeft="@+id/tvPickUpDate"
                 android:text="PICKUP TIME"
                 android:textColor="@color/white"
                 android:textSize="15sp" />
@@ -109,12 +100,12 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginBottom="4dp"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
             android:layout_weight="1"
             android:background="@color/textbox_blue"
-            android:paddingLeft="5dp" >
+            android:paddingLeft="5dp">
 
             <TextView
                 android:id="@+id/tvDeliveryTime"
@@ -130,8 +121,8 @@
                 android:id="@+id/tvDeliveryDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
                 android:layout_below="@+id/tvDeliveryTime"
+                android:layout_alignParentLeft="true"
                 android:text="TextView"
                 android:textColor="@color/white"
                 android:textSize="15sp" />
@@ -140,8 +131,8 @@
                 android:id="@+id/tvDelivery"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/tvDeliveryDate"
                 android:layout_below="@+id/tvDeliveryDate"
+                android:layout_alignLeft="@+id/tvDeliveryDate"
                 android:text="RETURN TIME"
                 android:textColor="@color/white"
                 android:textSize="15sp" />
@@ -152,8 +143,8 @@
         android:id="@+id/imageView2"
         android:layout_width="20dp"
         android:layout_height="20dp"
-        android:layout_alignLeft="@+id/imageView1"
-        android:layout_below="@+id/imageView1"
+        android:layout_below="@+id/tvOrder"
+        android:layout_alignLeft="@+id/tvOrder"
         android:layout_marginTop="10dp"
         android:src="@drawable/ic_address_icon" />
 
@@ -162,8 +153,8 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_below="@+id/imageView1"
-        android:layout_marginRight="5dp"
         android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
         android:layout_toLeftOf="@+id/tvContact"
         android:src="@drawable/ic_phone" />
 
@@ -175,8 +166,8 @@
         android:layout_toLeftOf="@+id/imageView3"
         android:layout_toRightOf="@+id/imageView2"
         android:paddingLeft="5dp"
-        android:paddingRight="5dp"
         android:paddingTop="4dp"
+        android:paddingRight="5dp"
         android:text="TextView"
         android:textColor="@color/white" />
 
@@ -184,12 +175,12 @@
         android:id="@+id/tvContact"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/tvStatus"
         android:layout_alignTop="@+id/imageView3"
+        android:layout_alignRight="@+id/tvStatus"
+        android:autoLink="phone"
         android:paddingTop="5dp"
         android:text=""
-                                android:autoLink="phone"
-        
+
         android:textColor="@color/white" />
 
 </RelativeLayout>

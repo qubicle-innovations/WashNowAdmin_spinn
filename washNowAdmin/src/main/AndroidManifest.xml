@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.washnow.admin"
-    android:versionCode="11"
+    android:versionCode="14"
     android:versionName="1.0" >
 
     <uses-sdk
@@ -33,11 +33,14 @@
     <!-- android:theme="@style/Theme.Transparent" -->
     <application
         android:allowBackup="true"
+        android:usesCleartextTraffic="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <uses-library android:name="com.google.android.maps" />
-
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
         <activity
             android:name="com.washnow.admin.LoginActivity"
             android:exported="true"
@@ -81,6 +84,9 @@
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/map_release_id" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="dd020a6048c3353193683ccc303e3f93bf2d333a" />
     </application>
 
 </manifest>

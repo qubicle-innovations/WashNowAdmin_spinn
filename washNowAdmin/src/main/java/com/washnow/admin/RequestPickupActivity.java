@@ -1,30 +1,12 @@
 package com.washnow.admin;
 
 
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
-
-import com.washnow.admin.R;
-import com.washnow.admin.async.OrderCreateTask;
-import com.washnow.admin.loader.ImageLoader;
-import com.washnow.admin.parser.Parser;
-import com.washnow.admin.utils.DateUtil;
-import com.washnow.admin.utils.Utils;
-import com.washnow.admin.utils.ZTypeface;
-import com.washnow.admin.vo.OrderVo;
-import com.washnow.admin.vo.PickupSlot;
-import com.washnow.admin.vo.TResponse;
-
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.DialogInterface.OnDismissListener;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.PopupMenu.OnMenuItemClickListener;
@@ -41,6 +23,23 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
+
+import com.washnow.admin.async.OrderCreateTask;
+import com.washnow.admin.loader.ImageLoader;
+import com.washnow.admin.parser.Parser;
+import com.washnow.admin.utils.DateUtil;
+import com.washnow.admin.utils.Utils;
+import com.washnow.admin.utils.ZTypeface;
+import com.washnow.admin.vo.OrderVo;
+import com.washnow.admin.vo.PickupSlot;
+import com.washnow.admin.vo.TResponse;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 
 public class RequestPickupActivity extends BaseBackActivity implements OnClickListener{
 
@@ -528,7 +527,7 @@ public class RequestPickupActivity extends BaseBackActivity implements OnClickLi
 				order.setAddress(address);
 				params.add( new BasicNameValuePair("phone_number",Utils.getText(etPhone)) ); 
 				order.setPhone_number(Utils.getText(etPhone));
-				params.add( new BasicNameValuePair("pick_up_date",DateUtil.dateToString(startDate.getTime(), DateUtil.DATETIME_SQL)) ); 
+				params.add( new BasicNameValuePair("pick_up_date",DateUtil.dateToString(startDate.getTime(), DateUtil.DATETIME_SQL)) );
 				order.setPick_up_date(DateUtil.dateToString(startDate.getTime(), DateUtil.DATETIME_SQL));
 				params.add( new BasicNameValuePair("delivery_date",DateUtil.dateToString(endDate.getTime(), DateUtil.DATETIME_SQL)) ); 
 				order.setDelivery_date(DateUtil.dateToString(endDate.getTime(), DateUtil.DATETIME_SQL));
@@ -547,7 +546,8 @@ public class RequestPickupActivity extends BaseBackActivity implements OnClickLi
 				
 				params.add( new BasicNameValuePair("status","pending") ); 
 				order.setStatus("pending");
-				params.add( new BasicNameValuePair("process","addorder") ); 
+		  params.add( new BasicNameValuePair("country",Utils.getSharedPreference(context,"country")) );
+		  params.add( new BasicNameValuePair("process","addorder") );
 				new OrderCreateTask(context, params).execute("");
 				
 		  

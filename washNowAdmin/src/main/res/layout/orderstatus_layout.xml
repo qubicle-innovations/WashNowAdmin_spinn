@@ -3,19 +3,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/home_blue_medium"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:padding="5dp" >
+        android:padding="5dp">
 
         <fragment
             android:id="@+id/map"
+            class="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            class="com.google.android.gms.maps.SupportMapFragment" />
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/trancelucent"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:textColor="@android:color/white"
+            android:paddingEnd="10dp"
+            android:paddingBottom="5dp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -23,18 +35,18 @@
         android:layout_height="0dp"
         android:layout_gravity="bottom"
         android:layout_weight="1"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_above="@+id/llTime"
             android:layout_alignParentTop="true"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:id="@+id/tvStatusTitle"
@@ -44,11 +56,11 @@
                     android:layout_alignParentTop="true"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:paddingBottom="5dp"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:text="Status"
                     android:textColor="@color/white"
-                    android:textSize="15sp" />
+                    android:textSize="17sp" />
 
                 <TextView
                     android:id="@+id/tvStatus"
@@ -60,9 +72,9 @@
                     android:layout_marginRight="10dp"
                     android:layout_toRightOf="@+id/tvStatusTitle"
                     android:gravity="right"
-                    android:paddingBottom="5dp"
                     android:paddingLeft="5dp"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:text=" "
                     android:textColor="@color/white"
                     android:textSize="15sp" />
@@ -71,11 +83,11 @@
                     android:id="@+id/tvNameTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignLeft="@+id/tvStatusTitle"
                     android:layout_below="@+id/tvStatusTitle"
+                    android:layout_alignLeft="@+id/tvStatusTitle"
                     android:layout_marginTop="10dp"
-                    android:paddingBottom="5dp"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:text="Contact Person"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
@@ -91,9 +103,9 @@
                     android:layout_toRightOf="@+id/tvNameTitle"
                     android:drawableRight="@drawable/ic_add_user"
                     android:gravity="right"
-                    android:paddingBottom="5dp"
                     android:paddingLeft="5dp"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:text=" "
                     android:textColor="@color/white"
                     android:textSize="15sp" />
@@ -102,11 +114,11 @@
                     android:id="@+id/tvNumberTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignLeft="@+id/tvNameTitle"
                     android:layout_below="@+id/tvNameTitle"
+                    android:layout_alignLeft="@+id/tvNameTitle"
                     android:layout_marginTop="10dp"
-                    android:paddingBottom="5dp"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:text="Contact Number"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
@@ -119,13 +131,13 @@
                     android:layout_alignBottom="@+id/tvNumberTitle"
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="10dp"
-                        android:autoLink="phone"
-                    
                     android:layout_toRightOf="@+id/tvNumberTitle"
+
+                    android:autoLink="phone"
                     android:gravity="right"
-                    android:paddingBottom="5dp"
                     android:paddingLeft="5dp"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:text=" "
                     android:textColor="@color/white"
                     android:textSize="15sp" />
@@ -134,11 +146,11 @@
                     android:id="@+id/tvNotesTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignLeft="@+id/tvNumberTitle"
                     android:layout_below="@+id/tvNumberTitle"
+                    android:layout_alignLeft="@+id/tvNumberTitle"
                     android:layout_marginTop="10dp"
-                    android:paddingBottom="5dp"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:text="Wash Notes"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
@@ -152,12 +164,12 @@
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="10dp"
                     android:layout_toRightOf="@+id/tvNotesTitle"
-                     android:gravity="right"
+                    android:gravity="right"
                     android:marqueeRepeatLimit="marquee_forever"
-                    android:paddingBottom="5dp"
                     android:paddingLeft="5dp"
                     android:paddingTop="5dp"
-                     android:text=" "
+                    android:paddingBottom="5dp"
+                    android:text=" "
                     android:textColor="@color/white"
                     android:textSize="15sp" />
 
@@ -165,11 +177,11 @@
                     android:id="@+id/tvAmountTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignLeft="@+id/tvNotesTitle"
                     android:layout_below="@+id/tvNotes"
+                    android:layout_alignLeft="@+id/tvNotesTitle"
                     android:layout_marginTop="10dp"
-                    android:paddingBottom="5dp"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:text="Total Price"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
@@ -178,27 +190,54 @@
                     android:id="@+id/tvPrice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvNotes"
                     android:layout_alignBaseline="@+id/tvAmountTitle"
                     android:layout_alignRight="@+id/tvTag"
-                    android:layout_below="@+id/tvNotes"
                     android:layout_toRightOf="@+id/tvAmountTitle"
                     android:gravity="right"
-                    android:paddingBottom="5dp"
                     android:paddingLeft="5dp"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:text=" "
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/tvCouponTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvAmountTitle"
+                    android:layout_alignLeft="@+id/tvAmountTitle"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Coupon"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
 
                 <TextView
+                    android:id="@+id/tvCoupon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvNotes"
+                    android:layout_alignBaseline="@+id/tvCouponTitle"
+                    android:layout_alignRight="@+id/tvTag"
+                    android:layout_toRightOf="@+id/tvCouponTitle"
+                    android:gravity="right"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text=" "
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+                <TextView
                     android:id="@+id/tvTagTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignLeft="@+id/tvAmountTitle"
-                    android:layout_below="@+id/tvAmountTitle"
+                    android:layout_below="@+id/tvCouponTitle"
+                    android:layout_alignLeft="@+id/tvCouponTitle"
                     android:layout_marginTop="10dp"
-                    android:paddingBottom="5dp"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:text="Tag"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
@@ -213,8 +252,8 @@
                     android:layout_marginRight="10dp"
                     android:layout_toRightOf="@+id/tvTagTitle"
                     android:gravity="right"
-                    android:paddingBottom="5dp"
                     android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
                     android:text=" "
                     android:textColor="@color/white"
                     android:textSize="15sp" />
@@ -227,29 +266,30 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_gravity="bottom"
-            android:orientation="horizontal" >
+            android:orientation="horizontal">
 
             <RelativeLayout
                 android:layout_width="0dp"
-                android:layout_height="95dp"
+                android:layout_height="85dp"
                 android:layout_gravity="bottom"
-                android:layout_marginBottom="4dp"
                 android:layout_marginLeft="4dp"
                 android:layout_marginRight="2dp"
+                android:layout_marginBottom="4dp"
                 android:layout_weight="1"
                 android:background="@color/textbox_blue"
-                android:paddingBottom="10dp"
-                android:paddingLeft="5dp" >
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
 
                 <TextView
                     android:id="@+id/tvPickUp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
                     android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
                     android:text="TextView"
                     android:textColor="@color/white"
-                    android:textSize="18sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:id="@+id/tvPickUpDate"
@@ -275,25 +315,26 @@
 
             <RelativeLayout
                 android:layout_width="0dp"
-                android:layout_height="95dp"
+                android:layout_height="85dp"
                 android:layout_gravity="bottom"
-                android:layout_marginBottom="4dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginRight="4dp"
+                android:layout_marginBottom="4dp"
                 android:layout_weight="1"
                 android:background="@color/textbox_blue"
-                android:paddingBottom="10dp"
-                android:paddingLeft="5dp" >
+                android:paddingLeft="5dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
 
                 <TextView
                     android:id="@+id/tvDelivery"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
                     android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
                     android:text="TextView"
                     android:textColor="@color/white"
-                    android:textSize="18sp" />
+                    android:textSize="15sp" />
 
                 <TextView
                     android:id="@+id/tvDeliveryDate"

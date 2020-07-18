@@ -166,19 +166,27 @@ public class OrderListAdapter extends BaseAdapter{
         if(diff==0){
         	holder.tvPickUpDate.setText("Today");
         }else if(diff==1){
-        	holder.tvPickUpDate.setText("Tomorrow");
-        } else {
-        	holder.tvPickUpDate.setText(DateUtil.dateToString(date, DateUtil.DATE_NAME_PATTERN));
-        }
+			holder.tvPickUpDate.setText("Tomorrow");
+		} else if(diff==-1){
+			holder.tvPickUpDate.setText("Yesterday");
+		} else if( diff < -1) {
+			holder.tvPickUpDate.setText(Math.abs(diff)+" days ago");
+		}else {
+			holder.tvPickUpDate.setText(DateUtil.dateToString(date, DateUtil.MONTH_DATE_PATTERN));
+		}
         date = endDate.getTime();
         diff = DateUtil.daysDiff(new Date(), date);
         if(diff==0){
         	holder.tvDeliveryDate.setText("Today");
         }else if(diff==1){
         	holder.tvDeliveryDate.setText("Tomorrow");
-        } else {
-        	holder.tvDeliveryDate.setText(DateUtil.dateToString(date, DateUtil.DATE_NAME_PATTERN));
-        }
+        } else if(diff==-1){
+			holder.tvDeliveryDate.setText("Yesterday");
+		} else if( diff < -1) {
+			holder.tvDeliveryDate.setText(Math.abs(diff)+" days ago");
+		}else {
+			holder.tvDeliveryDate.setText(DateUtil.dateToString(date, DateUtil.MONTH_DATE_PATTERN));
+		}
 		if(order.getExtras()==null){
 			convertView.setBackgroundColor(context.getResources().getColor(R.color.trancelucent));
     	

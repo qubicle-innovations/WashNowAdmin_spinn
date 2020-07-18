@@ -1,8 +1,8 @@
 package com.washnow.admin.vo;
 
-import java.io.Serializable;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import java.io.Serializable;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class OrderVo implements Serializable{
@@ -28,6 +28,9 @@ public class OrderVo implements Serializable{
 	private String created;
 	private String bill_no;
 	private String updated;
+	private String coupon_code;
+	private String coupon_count;
+	private String country;
 	public String getId() {
 		return id;
 	}
@@ -131,7 +134,27 @@ public class OrderVo implements Serializable{
 		this.bill_no = bill_no;
 	}
 
-	
-	
+	public String getCountry() {
+		return country;
+	}
 
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public String getCoupon_code() {
+		return coupon_code;
+	}
+
+	public void setCoupon_code(String coupon_code) {
+		this.coupon_code = coupon_code;
+	}
+
+	public String getCoupon_count() {
+		return coupon_count;
+	}
+
+	public void setCoupon_count(String coupon_count) {
+		this.coupon_count = coupon_count;
+	}
 }

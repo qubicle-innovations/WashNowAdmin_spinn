@@ -38,7 +38,7 @@ public class GetOrderListTask extends
 		//	http://qubicle.me/washnow_admin_test/orderapi.php
 	 			restClient.addParam("authorization","AAAAQQXlDD8:APA91bEzxEocN_TgmgI1xiZzCFj_OYT4MHtrtEVcTT7CLvb9PmbiqjX_fsHtFbonHwkRh6xSc0-23Hmfp8QaVpFS4_1DQ7uYq1-qS6Ok1ZrZUcXkOYdFRxc3Y0kLRfYqjNfWfciahsZJ"  );
 			//	Log.i("id", this.params);
-			 
+			 restClient.addParam("country", Utils.getSharedPreference(ctx,"country"));
 			restClient.execute(RequestMethod.POST);
 			result = restClient.getResponseString();
 			 response.setResponseContent(result);

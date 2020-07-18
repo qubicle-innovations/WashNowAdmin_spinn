@@ -34,7 +34,7 @@ public class GetProductsTask extends
 
 		try {
 			String result=null;
-			RestClient restClient = new RestClient(Utils.URL_SERVER+"?process=fetchproducts");
+			RestClient restClient = new RestClient(Utils.URL_SERVER+"?process=fetchproducts&country="+Utils.getSharedPreference(ctx,"country"));
 			 
 	//			restClient.addParam("id", this.params);
 			//	Log.i("id", this.params);
