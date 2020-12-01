@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./spinwashAdmin/libs/btsdk.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spinwashAdmin/libs/btsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

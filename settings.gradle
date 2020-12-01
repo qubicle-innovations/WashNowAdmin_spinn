@@ -1,2 +1,2 @@
 include ':resideMenu'
-include ':washNowAdmin'
+include ':spinwashAdmin'

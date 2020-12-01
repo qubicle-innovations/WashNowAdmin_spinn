@@ -1,0 +1,412 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:1:1-91:12
+INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:1:1-91:12
+INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:1:1-91:12
+INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:1:1-91:12
+MERGED from [:resideMenu] /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/resideMenu/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/609a7e4808b4b29d9b0daeed30c6630e/play-services-gcm-10.2.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/02a0b5591867b269bf90099dda756d74/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8a1d44e00acbefa4dd69e268814e1dc6/play-services-maps-10.2.1/AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-location:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/70095abf67f82fa8c1155007791afc5d/play-services-location-10.2.1/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/0f2d632c3d60047c6d3679b56f764e18/play-services-iid-10.2.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8dfb429374a6ae78bc329db2cb9447a3/play-services-tasks-10.2.1/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/ec49cdc9b715c11ab9663124e794c685/play-services-basement-10.2.1/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/e880da2ae6f5afb5116d24ba5623fef1/support-v4-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/7c3616f46c233483189f28c6aecc1bf8/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/aa102c73461ceaead80426ed3767173f/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/bc9e4441cb0d35d24fb33db1292b83cf/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/6dd5acce2e1c39457e97c6a540b902b4/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/c6f6f11813f3ec2da92459396215a744/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/0d332eb486d43f6291b6bdda6995274f/support-media-compat-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/7812a08fd4bf4624084090ee58b6a21c/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/237db0b5c3adb38854df6d16d881ad02/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/9a6b712a80d4975cb5a9b309b527e950/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/babc3655dda648c8281c5389c3b34623/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/16708a4b23eb1f0a10054ff774dd4c6b/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/a885ef9aa38df6be665a3ee44c1024dd/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/82ef1f2eb418706c0dc6e994f07498d6/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/7d223bdf7b3559590bff916d5265ef74/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/00567bd0de14b33d1bf8a440dc72bff8/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/33c175469499d369484821985d0455bd/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/2946dbff920a3086769a6d1e9c34cc83/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/f4f4effee3b19ca333d784babd2ded97/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/9d2defd0a735151083850e3e03cf1f99/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/8dbf37106270662bcf8910d884c3388d/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/f9b4407e2d6f9e6d73e2e41e2d02eb35/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/beda9f3c18d073b7eea7ef46b9ad839a/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/d7fd0a6b82dbac033f938c982be39bd3/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/92e18467eefd23a76627e1fe83bf1e05/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/7f446c61d119859cc910274a8162160c/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8ce8513e0c0ed0e577ea55f824679bf4/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/590c36f03e7cdd245d83858d97318cc4/crashlytics-core-2.6.8/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/sachith/.gradle/caches/transforms-2/files-2.1/bc9fcf7fcebbdf9306e752518a78057f/answers-1.4.7/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/3aa98c15d9ebf7da4b89938484fa320f/fabric-1.4.8/AndroidManifest.xml:22:1-33:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/sachith/.gradle/caches/transforms-2/files-2.1/1acb74b6541314a8c03e17966fe92e6c/beta-1.2.10/AndroidManifest.xml:2:1-13:12
+INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:1:1-91:12
+INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:1:1-91:12
+INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:1:1-91:12
+	package
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:2:5-33
+		INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml
+		INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml
+		INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:3:5-29
+		INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml
+		INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:6:5-47
+INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:6:5-47
+INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:6:5-47
+MERGED from [:resideMenu] /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/resideMenu/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:40
+MERGED from [:resideMenu] /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/resideMenu/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:40
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/609a7e4808b4b29d9b0daeed30c6630e/play-services-gcm-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/609a7e4808b4b29d9b0daeed30c6630e/play-services-gcm-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/02a0b5591867b269bf90099dda756d74/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/02a0b5591867b269bf90099dda756d74/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8a1d44e00acbefa4dd69e268814e1dc6/play-services-maps-10.2.1/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8a1d44e00acbefa4dd69e268814e1dc6/play-services-maps-10.2.1/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/70095abf67f82fa8c1155007791afc5d/play-services-location-10.2.1/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/70095abf67f82fa8c1155007791afc5d/play-services-location-10.2.1/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/0f2d632c3d60047c6d3679b56f764e18/play-services-iid-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/0f2d632c3d60047c6d3679b56f764e18/play-services-iid-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8dfb429374a6ae78bc329db2cb9447a3/play-services-tasks-10.2.1/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8dfb429374a6ae78bc329db2cb9447a3/play-services-tasks-10.2.1/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/ec49cdc9b715c11ab9663124e794c685/play-services-basement-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/ec49cdc9b715c11ab9663124e794c685/play-services-basement-10.2.1/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/e880da2ae6f5afb5116d24ba5623fef1/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/e880da2ae6f5afb5116d24ba5623fef1/support-v4-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/7c3616f46c233483189f28c6aecc1bf8/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/7c3616f46c233483189f28c6aecc1bf8/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/aa102c73461ceaead80426ed3767173f/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/aa102c73461ceaead80426ed3767173f/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/bc9e4441cb0d35d24fb33db1292b83cf/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/bc9e4441cb0d35d24fb33db1292b83cf/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/6dd5acce2e1c39457e97c6a540b902b4/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/6dd5acce2e1c39457e97c6a540b902b4/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/c6f6f11813f3ec2da92459396215a744/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/c6f6f11813f3ec2da92459396215a744/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/0d332eb486d43f6291b6bdda6995274f/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/0d332eb486d43f6291b6bdda6995274f/support-media-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/7812a08fd4bf4624084090ee58b6a21c/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/7812a08fd4bf4624084090ee58b6a21c/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/237db0b5c3adb38854df6d16d881ad02/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/237db0b5c3adb38854df6d16d881ad02/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/9a6b712a80d4975cb5a9b309b527e950/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/9a6b712a80d4975cb5a9b309b527e950/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/babc3655dda648c8281c5389c3b34623/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/babc3655dda648c8281c5389c3b34623/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/16708a4b23eb1f0a10054ff774dd4c6b/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/16708a4b23eb1f0a10054ff774dd4c6b/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/a885ef9aa38df6be665a3ee44c1024dd/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/a885ef9aa38df6be665a3ee44c1024dd/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/82ef1f2eb418706c0dc6e994f07498d6/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/82ef1f2eb418706c0dc6e994f07498d6/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/7d223bdf7b3559590bff916d5265ef74/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/7d223bdf7b3559590bff916d5265ef74/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/00567bd0de14b33d1bf8a440dc72bff8/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/00567bd0de14b33d1bf8a440dc72bff8/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/33c175469499d369484821985d0455bd/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/33c175469499d369484821985d0455bd/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/2946dbff920a3086769a6d1e9c34cc83/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/2946dbff920a3086769a6d1e9c34cc83/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/f4f4effee3b19ca333d784babd2ded97/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/f4f4effee3b19ca333d784babd2ded97/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/9d2defd0a735151083850e3e03cf1f99/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/9d2defd0a735151083850e3e03cf1f99/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/8dbf37106270662bcf8910d884c3388d/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/8dbf37106270662bcf8910d884c3388d/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/f9b4407e2d6f9e6d73e2e41e2d02eb35/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/f9b4407e2d6f9e6d73e2e41e2d02eb35/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/beda9f3c18d073b7eea7ef46b9ad839a/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/beda9f3c18d073b7eea7ef46b9ad839a/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/d7fd0a6b82dbac033f938c982be39bd3/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/d7fd0a6b82dbac033f938c982be39bd3/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/92e18467eefd23a76627e1fe83bf1e05/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/92e18467eefd23a76627e1fe83bf1e05/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/7f446c61d119859cc910274a8162160c/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/7f446c61d119859cc910274a8162160c/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8ce8513e0c0ed0e577ea55f824679bf4/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8ce8513e0c0ed0e577ea55f824679bf4/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/590c36f03e7cdd245d83858d97318cc4/crashlytics-core-2.6.8/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/590c36f03e7cdd245d83858d97318cc4/crashlytics-core-2.6.8/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/sachith/.gradle/caches/transforms-2/files-2.1/bc9fcf7fcebbdf9306e752518a78057f/answers-1.4.7/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/sachith/.gradle/caches/transforms-2/files-2.1/bc9fcf7fcebbdf9306e752518a78057f/answers-1.4.7/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/3aa98c15d9ebf7da4b89938484fa320f/fabric-1.4.8/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/3aa98c15d9ebf7da4b89938484fa320f/fabric-1.4.8/AndroidManifest.xml:27:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/sachith/.gradle/caches/transforms-2/files-2.1/1acb74b6541314a8c03e17966fe92e6c/beta-1.2.10/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/sachith/.gradle/caches/transforms-2/files-2.1/1acb74b6541314a8c03e17966fe92e6c/beta-1.2.10/AndroidManifest.xml:7:5-43
+INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:6:5-47
+INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:6:5-47
+	android:targetSdkVersion
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:6:15-44
+		INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml
+		INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:6:5-47
+		INJECTED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml
+permission#com.spinwash.admin.permission.MAPS_RECEIVE
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:8:5-10:47
+	android:protectionLevel
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:10:9-44
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:9:9-66
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:12:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:14:5-84
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:14:22-81
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:17:5-67
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/609a7e4808b4b29d9b0daeed30c6630e/play-services-gcm-10.2.1/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/609a7e4808b4b29d9b0daeed30c6630e/play-services-gcm-10.2.1/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8a1d44e00acbefa4dd69e268814e1dc6/play-services-maps-10.2.1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8a1d44e00acbefa4dd69e268814e1dc6/play-services-maps-10.2.1/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/0f2d632c3d60047c6d3679b56f764e18/play-services-iid-10.2.1/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/0f2d632c3d60047c6d3679b56f764e18/play-services-iid-10.2.1/AndroidManifest.xml:21:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/590c36f03e7cdd245d83858d97318cc4/crashlytics-core-2.6.8/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/590c36f03e7cdd245d83858d97318cc4/crashlytics-core-2.6.8/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/sachith/.gradle/caches/transforms-2/files-2.1/bc9fcf7fcebbdf9306e752518a78057f/answers-1.4.7/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/sachith/.gradle/caches/transforms-2/files-2.1/bc9fcf7fcebbdf9306e752518a78057f/answers-1.4.7/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/3aa98c15d9ebf7da4b89938484fa320f/fabric-1.4.8/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/3aa98c15d9ebf7da4b89938484fa320f/fabric-1.4.8/AndroidManifest.xml:29:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/sachith/.gradle/caches/transforms-2/files-2.1/1acb74b6541314a8c03e17966fe92e6c/beta-1.2.10/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/sachith/.gradle/caches/transforms-2/files-2.1/1acb74b6541314a8c03e17966fe92e6c/beta-1.2.10/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:17:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:19:5-71
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:19:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:20:22-65
+uses-permission#com.washnow.admin.permission.MAPS_RECEIVE
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8a1d44e00acbefa4dd69e268814e1dc6/play-services-maps-10.2.1/AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8a1d44e00acbefa4dd69e268814e1dc6/play-services-maps-10.2.1/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:23:22-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:24:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:25:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:26:5-98
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:26:22-95
+uses-feature#0x00020000
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:28:5-30:35
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8a1d44e00acbefa4dd69e268814e1dc6/play-services-maps-10.2.1/AndroidManifest.xml:21:5-77
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8a1d44e00acbefa4dd69e268814e1dc6/play-services-maps-10.2.1/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:29:9-41
+	android:required
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:30:9-32
+application
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:32:5-89:19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/609a7e4808b4b29d9b0daeed30c6630e/play-services-gcm-10.2.1/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/609a7e4808b4b29d9b0daeed30c6630e/play-services-gcm-10.2.1/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8a1d44e00acbefa4dd69e268814e1dc6/play-services-maps-10.2.1/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8a1d44e00acbefa4dd69e268814e1dc6/play-services-maps-10.2.1/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/70095abf67f82fa8c1155007791afc5d/play-services-location-10.2.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/70095abf67f82fa8c1155007791afc5d/play-services-location-10.2.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/0f2d632c3d60047c6d3679b56f764e18/play-services-iid-10.2.1/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/0f2d632c3d60047c6d3679b56f764e18/play-services-iid-10.2.1/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8dfb429374a6ae78bc329db2cb9447a3/play-services-tasks-10.2.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/8dfb429374a6ae78bc329db2cb9447a3/play-services-tasks-10.2.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/ec49cdc9b715c11ab9663124e794c685/play-services-basement-10.2.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/ec49cdc9b715c11ab9663124e794c685/play-services-basement-10.2.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/00567bd0de14b33d1bf8a440dc72bff8/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/00567bd0de14b33d1bf8a440dc72bff8/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/33c175469499d369484821985d0455bd/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/33c175469499d369484821985d0455bd/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/590c36f03e7cdd245d83858d97318cc4/crashlytics-core-2.6.8/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/590c36f03e7cdd245d83858d97318cc4/crashlytics-core-2.6.8/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/sachith/.gradle/caches/transforms-2/files-2.1/bc9fcf7fcebbdf9306e752518a78057f/answers-1.4.7/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.7] /home/sachith/.gradle/caches/transforms-2/files-2.1/bc9fcf7fcebbdf9306e752518a78057f/answers-1.4.7/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/3aa98c15d9ebf7da4b89938484fa320f/fabric-1.4.8/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.8] /home/sachith/.gradle/caches/transforms-2/files-2.1/3aa98c15d9ebf7da4b89938484fa320f/fabric-1.4.8/AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/sachith/.gradle/caches/transforms-2/files-2.1/1acb74b6541314a8c03e17966fe92e6c/beta-1.2.10/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] /home/sachith/.gradle/caches/transforms-2/files-2.1/1acb74b6541314a8c03e17966fe92e6c/beta-1.2.10/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/00567bd0de14b33d1bf8a440dc72bff8/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:37:9-41
+	android:roundIcon
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:36:9-54
+	android:icon
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:35:9-43
+	android:allowBackup
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:33:9-35
+	android:theme
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:38:9-40
+	android:usesCleartextTraffic
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:34:9-44
+uses-library#com.google.android.maps
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:39:9-64
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:39:23-61
+uses-library#org.apache.http.legacy
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:40:9-42:40
+	android:required
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:41:13-50
+activity#com.spinwash.admin.LoginActivity
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:43:9-53:20
+	android:screenOrientation
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:47:13-49
+	android:label
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:46:13-45
+	android:exported
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:45:13-36
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:44:13-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:48:13-52:29
+action#android.intent.action.MAIN
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:49:17-69
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:49:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:51:17-77
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:51:27-74
+activity#com.spinwash.admin.OrderListActivity
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:54:9-56:48
+	android:label
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:56:13-45
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:55:13-64
+activity#com.spinwash.admin.OrderStatusActivity
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:57:9-59:48
+	android:label
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:59:13-45
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:58:13-66
+activity#com.spinwash.admin.RequestPickupActivity
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:60:9-64:20
+	android:screenOrientation
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:63:13-49
+	android:label
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:62:13-45
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:61:13-68
+activity#com.spinwash.admin.InvoiceActivity
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:65:9-69:20
+	android:screenOrientation
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:67:13-45
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:66:13-62
+activity#com.spinwash.admin.WebViewActivity
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:70:9-72:48
+	android:label
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:72:13-45
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:71:13-62
+activity#com.spinwash.admin.MapActivity
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:73:9-75:48
+	android:label
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:75:13-45
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:74:13-58
+activity#com.spinwash.admin.DeviceListActivity
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:76:9-79:66
+	android:label
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:77:13-50
+	android:configChanges
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:79:13-63
+	android:theme
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:78:13-56
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:76:19-71
+meta-data#com.google.android.gms.version
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:80:9-82:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/ec49cdc9b715c11ab9663124e794c685/play-services-basement-10.2.1/AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/ec49cdc9b715c11ab9663124e794c685/play-services-basement-10.2.1/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:82:13-66
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:81:13-58
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:83:9-85:54
+	android:value
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:85:13-51
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:84:13-62
+meta-data#io.fabric.ApiKey
+ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:86:9-88:72
+	android:value
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:88:13-69
+	android:name
+		ADDED from /mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:87:13-44
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/609a7e4808b4b29d9b0daeed30c6630e/play-services-gcm-10.2.1/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/0f2d632c3d60047c6d3679b56f764e18/play-services-iid-10.2.1/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/0f2d632c3d60047c6d3679b56f764e18/play-services-iid-10.2.1/AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/609a7e4808b4b29d9b0daeed30c6630e/play-services-gcm-10.2.1/AndroidManifest.xml:20:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:19:19-85
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:13:13-75

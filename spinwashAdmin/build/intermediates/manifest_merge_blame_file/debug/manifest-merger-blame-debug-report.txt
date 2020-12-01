@@ -1,0 +1,220 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.spinwash.admin"
+4    android:versionCode="15"
+5    android:versionName="2.0" >
+6
+7    <uses-sdk
+7-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:6:5-47
+8        android:minSdkVersion="21"
+8-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:6:5-47
+9        android:targetSdkVersion="28" />
+9-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:6:15-44
+10
+11    <permission
+11-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:8:5-10:47
+12        android:name="com.spinwash.admin.permission.MAPS_RECEIVE"
+12-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:9:9-66
+13        android:protectionLevel="signature" />
+13-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:10:9-44
+14
+15    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+15-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:12:5-74
+15-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:12:22-71
+16    <uses-permission android:name="android.permission.BLUETOOTH" />
+16-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:13:5-68
+16-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:13:22-65
+17    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+17-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:14:5-84
+17-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:14:22-81
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:15:5-81
+18-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:15:22-78
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:15:5-81
+19-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:15:22-78
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:17:5-67
+20-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:17:22-64
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:15:5-81
+21-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:15:22-78
+22    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+22-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:19:5-71
+22-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:19:22-68
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:20:5-68
+23-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:20:22-65
+24    <uses-permission android:name="com.washnow.admin.permission.MAPS_RECEIVE" />
+24-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:21:5-81
+24-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:21:22-78
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:22:5-79
+25-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:22:22-76
+26    <uses-permission android:name="android.permission.VIBRATE" />
+26-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:23:5-66
+26-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:23:22-63
+27    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+27-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:24:5-81
+27-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:24:22-78
+28    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+28-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:25:5-79
+28-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:25:22-76
+29    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+29-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:26:5-98
+29-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:26:22-95
+30
+31    <uses-feature
+31-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:28:5-30:35
+32        android:glEsVersion="0x00020000"
+32-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:29:9-41
+33        android:required="true" />
+33-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:30:9-32
+34
+35    <!-- Permissions required for GCM -->
+36    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- android:theme="@style/Theme.Transparent" -->
+36-->[com.google.android.gms:play-services-gcm:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/609a7e4808b4b29d9b0daeed30c6630e/play-services-gcm-10.2.1/AndroidManifest.xml:20:5-81
+36-->[com.google.android.gms:play-services-gcm:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/609a7e4808b4b29d9b0daeed30c6630e/play-services-gcm-10.2.1/AndroidManifest.xml:20:22-79
+37    <application
+37-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:32:5-89:19
+38        android:allowBackup="true"
+38-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:33:9-35
+39        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+39-->[com.android.support:support-compat:28.0.0] /home/sachith/.gradle/caches/transforms-2/files-2.1/00567bd0de14b33d1bf8a440dc72bff8/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:35:9-43
+42        android:label="@string/app_name"
+42-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:37:9-41
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:36:9-54
+44        android:testOnly="true"
+45        android:theme="@style/AppTheme"
+45-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:38:9-40
+46        android:usesCleartextTraffic="true" >
+46-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:34:9-44
+47        <uses-library android:name="com.google.android.maps" />
+47-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:39:9-64
+47-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:39:23-61
+48        <uses-library
+48-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:40:9-42:40
+49            android:name="org.apache.http.legacy"
+49-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:41:13-50
+50            android:required="false" />
+50-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:42:13-37
+51
+52        <activity
+52-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:43:9-53:20
+53            android:name="com.spinwash.admin.LoginActivity"
+53-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:44:13-60
+54            android:exported="true"
+54-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:45:13-36
+55            android:label="@string/app_name"
+55-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:46:13-45
+56            android:screenOrientation="portrait" >
+56-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:47:13-49
+57            <intent-filter>
+57-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:48:13-52:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:49:17-69
+58-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:49:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:51:17-77
+60-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:51:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity
+63-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:54:9-56:48
+64            android:name="com.spinwash.admin.OrderListActivity"
+64-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:55:13-64
+65            android:label="@string/app_name" />
+65-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:56:13-45
+66        <activity
+66-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:57:9-59:48
+67            android:name="com.spinwash.admin.OrderStatusActivity"
+67-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:58:13-66
+68            android:label="@string/app_name" />
+68-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:59:13-45
+69        <activity
+69-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:60:9-64:20
+70            android:name="com.spinwash.admin.RequestPickupActivity"
+70-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:61:13-68
+71            android:label="@string/app_name"
+71-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:62:13-45
+72            android:screenOrientation="portrait" >
+72-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:63:13-49
+73        </activity>
+74        <activity
+74-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:65:9-69:20
+75            android:name="com.spinwash.admin.InvoiceActivity"
+75-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:66:13-62
+76            android:label="@string/app_name"
+76-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:67:13-45
+77            android:screenOrientation="portrait" >
+77-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:68:13-49
+78        </activity>
+79        <activity
+79-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:70:9-72:48
+80            android:name="com.spinwash.admin.WebViewActivity"
+80-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:71:13-62
+81            android:label="@string/app_name" />
+81-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:72:13-45
+82        <activity
+82-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:73:9-75:48
+83            android:name="com.spinwash.admin.MapActivity"
+83-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:74:13-58
+84            android:label="@string/app_name" />
+84-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:75:13-45
+85        <activity
+85-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:76:9-79:66
+86            android:name="com.spinwash.admin.DeviceListActivity"
+86-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:76:19-71
+87            android:configChanges="orientation|keyboardHidden"
+87-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:79:13-63
+88            android:label="@string/select_device"
+88-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:77:13-50
+89            android:theme="@android:style/Theme.Dialog" />
+89-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:78:13-56
+90
+91        <meta-data
+91-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:80:9-82:69
+92            android:name="com.google.android.gms.version"
+92-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:81:13-58
+93            android:value="@integer/google_play_services_version" />
+93-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:82:13-66
+94        <meta-data
+94-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:83:9-85:54
+95            android:name="com.google.android.maps.v2.API_KEY"
+95-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:84:13-62
+96            android:value="@string/map_release_id" />
+96-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:85:13-51
+97        <meta-data
+97-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:86:9-88:72
+98            android:name="io.fabric.ApiKey"
+98-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:87:13-44
+99            android:value="dd020a6048c3353193683ccc303e3f93bf2d333a" />
+99-->/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/AndroidManifest.xml:88:13-69
+100
+101        <activity
+101-->[com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:19:9-172
+102            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+102-->[com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:19:19-85
+103            android:exported="false"
+103-->[com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:19:146-170
+104            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+104-->[com.google.android.gms:play-services-base:10.2.1] /home/sachith/.gradle/caches/transforms-2/files-2.1/52a8d7b1625698ee9bf96c4639a9ea34/play-services-base-10.2.1/AndroidManifest.xml:19:86-145
+105
+106        <provider
+106-->[com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:12:9-16:38
+107            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+107-->[com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:13:13-75
+108            android:authorities="com.spinwash.admin.crashlyticsinitprovider"
+108-->[com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:14:13-75
+109            android:exported="false"
+109-->[com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:15:13-37
+110            android:initOrder="90" />
+110-->[com.crashlytics.sdk.android:crashlytics:2.9.9] /home/sachith/.gradle/caches/transforms-2/files-2.1/2b536d5b866787bceab10a19581c5eca/crashlytics-2.9.9/AndroidManifest.xml:16:13-35
+111    </application>
+112
+113</manifest>

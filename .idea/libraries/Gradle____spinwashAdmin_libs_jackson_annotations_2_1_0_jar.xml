@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./spinwashAdmin/libs/jackson-annotations-2.1.0.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spinwashAdmin/libs/jackson-annotations-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

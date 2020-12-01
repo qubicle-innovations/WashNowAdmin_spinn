@@ -1,0 +1,262 @@
+[
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_mappin.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_mappin.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_phone.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_phone.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_actionbar_logo.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_actionbar_logo.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_device_list.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/device_list.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_status_2.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_status_2.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_pen.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_pen.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_products_list_item.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/products_list_item.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_webview.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/webview.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_custom_progress.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/custom_progress.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable_go_round_bt.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable/go_round_bt.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable_cyan_round_bt.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable/cyan_round_bt.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_clock.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_clock.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_custom_title.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/custom_title.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_email.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_email.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_address_icon.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_address_icon.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_status_3.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_status_3.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xxhdpi_wash_splash_bg.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xxhdpi/wash_splash_bg.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_main.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_orderstatus_layout.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/orderstatus_layout.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_main_activity.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/main_activity.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_amount_dialog.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/amount_dialog.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_invoice_layout.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/invoice_layout.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_orderlist_layout.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/orderlist_layout.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_splash_logo.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/splash_logo.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_add_user.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_add_user.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_requestpu_layout.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/requestpu_layout.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_user.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_user.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_logo.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_action_logo.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable_graystrokebg.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable/graystrokebg.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/menu_menu_deliverytime.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/menu/menu_deliverytime.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_status_4.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_status_4.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_previous_item.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-hdpi/ic_action_previous_item.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_location.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_location.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_order_item.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/order_item.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable_transbtn.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable/transbtn.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable_bluebtn.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable/bluebtn.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/menu_menu_country.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/menu/menu_country.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable_graystroketrancbt.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable/graystroketrancbt.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_device_name.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/device_name.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_status_1.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_status_1.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_mapview_layout.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/mapview_layout.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_pickup_layout.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/pickup_layout.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable_menubluebtn.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable/menubluebtn.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/drawable_textboxbg.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/drawable/textboxbg.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_login_layout.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/login_layout.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_actionbar_backnav.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/actionbar_backnav.xml"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/build/intermediates/res/merged/debug/layout_message.xml.flat",
+        "source": "/mnt/7C6C29416C28F812/Qubicle/Washnow/WashNowAdmin_spinn/spinwashAdmin/src/main/res/layout/message.xml"
+    }
+]
